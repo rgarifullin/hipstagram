@@ -32,3 +32,5 @@ group :test do
   gem 'shoulda-matchers', '~> 3.1'
   gem 'ffaker'
 end
+
+gem 'devise'
