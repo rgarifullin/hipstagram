@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: hipstagram_development
+
+test:
+  <<: *default
+  database: hipstagram_test
+
+production:
+  <<: *default
+  database: hipstagram_production
+  username: hipstagram
+  password: <%= ENV['HIPSTAGRAM_DATABASE_PASSWORD'] %>
