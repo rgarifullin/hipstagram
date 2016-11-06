@@ -17,6 +17,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_girl_rails'
+  gem 'ffaker'
   gem 'awesome_print'
 end
 
@@ -30,7 +31,9 @@ end
 
 group :test do
   gem 'shoulda-matchers', '~> 3.1'
-  gem 'ffaker'
 end
 
 gem 'devise'
+
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+gem 'mini_magick'
