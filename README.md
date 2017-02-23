@@ -8,6 +8,6 @@
 
 **TODO**
 
-* React frontend
+* React.js (or Vue.js?) frontend
 * Deploy to Heroku
 * Auth via social nets (?)
