@@ -1,8 +1,10 @@
-# README
+# Hipstagram
 
-* Ruby 2.3.1 (current stable)
+![Travis CI build status](https://travis-ci.org/rgarifullin/hipstagram.svg?branch=master)
+
+* Ruby 2.4.0 (current stable)
 * Rails 5
-* PostgreSQL 
+* PostgreSQL
 
 **TODO**
 
