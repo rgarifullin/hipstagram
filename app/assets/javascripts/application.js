@@ -12,4 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
+//= require vue
 //= require_tree .
+
+$(function(){ $(document).foundation(); });

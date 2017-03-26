@@ -6,9 +6,12 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 
 gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
+gem 'foundation-rails'
+
 gem 'coffee-rails', '~> 4.2'
+gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
+gem 'vuejs-rails'
 
 gem 'slim'
 
@@ -17,22 +20,22 @@ gem 'slim'
 # gem 'redis', '~> 3.0'
 
 group :development, :test do
+  gem 'awesome_print'
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
-  gem 'factory_girl_rails'
-  gem 'ffaker'
-  gem 'awesome_print'
 end
 
 group :development do
-  gem 'web-console'
   gem 'listen', '~> 3.0.5'
+  gem 'pry-rails'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'pry-rails'
+  gem 'web-console'
 end
 
 group :test do
+  gem 'factory_girl_rails'
+  gem 'ffaker'
   gem 'shoulda-matchers', '~> 3.1'
 end
 
